@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Maitree:400,700);
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+.App {
+  text-align: center;
+}
+
+:root {
+  color: #565656;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+body {
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  margin-top: 20%;
+}
+
+.wrapper {
+  background-color: white;
+  width: 400px;
+  padding: 2rem;
+  box-shadow: 0 1.5rem 1rem -1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+}
+
+.input {
+  width: 100%;
+  height: 45px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border-radius: 0.2rem;
+  border: 2px solid #d4d5d6;
+  color: #565656;
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  border-color: cornflowerblue;
+  outline: none;
+}
+
+.btn {
+  padding: 15px 20px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  margin-left: 7px;
+  background: #f07b36;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #571205;
+  color: #fff
+}
+
+li {
+  list-style: none;
+  float: left;
+  margin: 10px;
+  padding: 1px 7px;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  background: #434a55;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.nav {
+  width: fit-content;
+  margin-left: 35%;
+}
+
+.nav a {
+  margin-top: 10%;
+}
